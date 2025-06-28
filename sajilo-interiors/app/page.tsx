@@ -144,6 +144,7 @@ export default function Component() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {[
+              
               "Interior Designing",
               "Hotel and Resort Construction",
               "Office & Commercial Building",
@@ -153,6 +154,7 @@ export default function Component() {
               "Architecture Exterior Design",
               "Roofing Projects",
               "Concept Design",
+              
             ].map((service, i) => (
               <Card key={i} className="relative overflow-hidden group cursor-pointer">
                 <Image
