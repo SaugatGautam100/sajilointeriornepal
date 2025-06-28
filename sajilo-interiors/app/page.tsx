@@ -4,6 +4,19 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react"
+import image1 from "../components/image/2.jpg"
+import image2 from "../components/image/4.jpg"
+import image3 from "../components/image/16.jpg"
+import image4  from "../components/image/19.jpg"
+import image5 from "../components/image/12.jpg"
+import image6 from "../components/image/11.jpg"
+import image7 from "../components/image/5.jpg"
+import image8 from "../components/image/7.jpg"
+import image9 from "../components/image/6.jpg"
+import image10 from "../components/image/8.jpg"
+import image11 from "../components/image/5.jpg"
+import image12 from "../components/image/10.jpg"
+import image13 from "../components/image/9.jpg"
 
 export default function Component() {
   return (
@@ -41,7 +54,7 @@ export default function Component() {
       {/* Hero Section */}
       <section className="relative h-[600px] bg-gray-900">
         <Image
-          src="/placeholder.svg?height=600&width=1200"
+          src={image1}
           alt="Architectural blueprints background"
           fill
           className="object-cover opacity-30"
@@ -65,14 +78,14 @@ export default function Component() {
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Image
-              src="/placeholder.svg?height=300&width=400"
+              src={image2}
               alt="Modern bedroom interior"
               width={400}
               height={300}
               className="rounded-lg shadow-lg"
             />
             <Image
-              src="/placeholder.svg?height=300&width=400"
+              src={image3}
               alt="Luxury bathroom interior"
               width={400}
               height={300}
@@ -113,7 +126,7 @@ export default function Component() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <Image
-              src="/placeholder.svg?height=400&width=500"
+              src={image4}
               alt="Interior design service"
               width={500}
               height={400}
@@ -158,7 +171,7 @@ export default function Component() {
             ].map((service, i) => (
               <Card key={i} className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src="/placeholder.svg?height=250&width=350"
+                  src={image5}
                   alt={service}
                   width={350}
                   height={250}
@@ -189,7 +202,7 @@ export default function Component() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <Image
-              src="/placeholder.svg?height=400&width=500"
+              src={image5}
               alt="Elegant interior design"
               width={500}
               height={400}
