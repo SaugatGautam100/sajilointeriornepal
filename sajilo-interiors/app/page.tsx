@@ -8,15 +8,15 @@ import image1 from "../components/image/2.jpg"
 import image2 from "../components/image/4.jpg"
 import image3 from "../components/image/16.jpg"
 import image4  from "../components/image/19.jpg"
-import image5 from "../components/image/19.jpg"
-import image6 from "../components/image/19.jpg"
-import image7 from "../components/image/19.jpg"
-import image8 from "../components/image/19.jpg"
-import image9 from "../components/image/19.jpg"
-import image10 from "../components/image/19.jpg"
-import image11 from "../components/image/19.jpg"
-import image12 from "../components/image/19.jpg"
-import image13 from "../components/image/19.jpg"
+import image5 from "../components/image/12.jpg"
+import image6 from "../components/image/11.jpg"
+import image7 from "../components/image/5.jpg"
+import image8 from "../components/image/7.jpg"
+import image9 from "../components/image/6.jpg"
+import image10 from "../components/image/8.jpg"
+import image11 from "../components/image/5.jpg"
+import image12 from "../components/image/10.jpg"
+import image13 from "../components/image/9.jpg"
 
 export default function Component() {
   return (
@@ -169,7 +169,7 @@ export default function Component() {
             ].map((service, i) => (
               <Card key={i} className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src="/placeholder.svg?height=250&width=350"
+                  src={image5}
                   alt={service}
                   width={350}
                   height={250}
