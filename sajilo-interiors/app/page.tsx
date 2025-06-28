@@ -9,26 +9,29 @@ export default function Component() {
   return (
     <div className="min-h-screen bg-white">
       {/* Header */}
-      <header className="bg-white shadow-sm">
+      <header className="bg-white shadow-sm fixed  top-0 left-0 w-full z-10">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <div className="w-8 h-8 bg-blue-500 rounded"></div>
-            <span className="text-xl font-bold text-gray-800">NextGen</span>
+            <span className="text-xl font-bold text-gray-800">Sajilo Interior Nepal</span>
           </div>
           <nav className="hidden md:flex space-x-8">
-            <a href="#" className="text-gray-600 hover:text-blue-500">
+            <a href="/" className="text-gray-600 hover:text-blue-500">
               Home
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-500">
+            <a href="#about" className="text-gray-600 hover:text-blue-500">
               About
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-500">
+            <a href="#achievements" className="text-gray-600 hover:text-blue-500">
+              Achievements
+            </a>
+            <a href="#services" className="text-gray-600 hover:text-blue-500">
               Services
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-500">
+            <a href="#projects" className="text-gray-600 hover:text-blue-500">
               Projects
             </a>
-            <a href="#" className="text-gray-600 hover:text-blue-500">
+            <a href="#contact" className="text-gray-600 hover:text-blue-500">
               Contact
             </a>
           </nav>
@@ -55,10 +58,10 @@ export default function Component() {
       </section>
 
       {/* Welcome Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50" id="about">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to NextGen</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Sajilo Interior Nepal</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Image
@@ -80,7 +83,7 @@ export default function Component() {
       </section>
 
       {/* Recent Achievements */}
-      <section className="py-16">
+      <section className="py-16" id="achievements">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Achievements</h2>
@@ -106,7 +109,7 @@ export default function Component() {
       </section>
 
       {/* Integrated Service */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50" id="services">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <Image
@@ -169,7 +172,7 @@ export default function Component() {
       </section>
 
       {/* Recent Projects */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50" id="projects">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="text-blue-500 font-semibold">Recent Projects</span>
@@ -214,7 +217,7 @@ export default function Component() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gray-50"  id="contact">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <span className="text-blue-500 font-semibold">Contact Us</span>
@@ -264,7 +267,7 @@ export default function Component() {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <div className="w-8 h-8 bg-blue-500 rounded"></div>
-                <span className="text-xl font-bold">NextGen</span>
+                <span className="text-xl font-bold">Sajilo Interior Nepal</span>
               </div>
               <p className="text-gray-400">
                 We are dedicated to providing exceptional interior design and construction services that exceed our
@@ -275,22 +278,22 @@ export default function Component() {
               <h3 className="text-lg font-semibold mb-4">Company</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="#about" className="hover:text-white">
                     About
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="#services" className="hover:text-white">
                     Services
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="#project" className="hover:text-white">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="/" className="hover:text-white">
                     Team
                   </a>
                 </li>
@@ -300,22 +303,22 @@ export default function Component() {
               <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="https://www.facebook.com/modelfurnituresnepal/" className="hover:text-white">
                     Portfolio
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="https://www.facebook.com/modelfurnituresnepal/" className="hover:text-white">
                     Blog
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="https://www.facebook.com/modelfurnituresnepal/" className="hover:text-white">
                     Contact
                   </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:text-white">
+                  <a href="https://www.facebook.com/modelfurnituresnepal/" className="hover:text-white">
                     Privacy Policy
                   </a>
                 </li>
@@ -326,26 +329,33 @@ export default function Component() {
               <div className="space-y-3 text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>+977-1-234567</span>
+                  <span>+977 985-1413590</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>info@nextgen.com.np</span>
+                  <span>sajilointerior@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-4 h-4" />
-                  <span>Kathmandu, Nepal</span>
+                  <span>Kathmandu, Bhaktapur, Lalitpur, Kirtīpur, Banepa</span>
                 </div>
               </div>
               <div className="flex space-x-4 mt-4">
-                <Facebook className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+                <a href="https://www.facebook.com/modelfurnituresnepal/">
+                <Facebook  className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+                </a>
+                <a href="https://www.facebook.com/modelfurnituresnepal/">
+
                 <Twitter className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+                </a>
+                <a href="https://www.instagram.com/sajilo_interior_pvt_ltd/">
                 <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+                </a>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 NextGen Interiors. All rights reserved.</p>
+            <p>&copy; 2024 Sajilo Interior Nepal. All rights reserved.</p>
           </div>
         </div>
       </footer>
