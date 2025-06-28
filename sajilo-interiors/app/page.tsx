@@ -162,7 +162,19 @@ export default function Component() {
            
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image5}
+                  alt="image5"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+              <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image6}
                   alt="image1"
                   width={350}
                   height={250}
@@ -174,7 +186,7 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image7}
                   alt="image1"
                   width={350}
                   height={250}
@@ -186,7 +198,7 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image8}
                   alt="image1"
                   width={350}
                   height={250}
@@ -198,7 +210,7 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image9}
                   alt="image1"
                   width={350}
                   height={250}
@@ -210,7 +222,7 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image10}
                   alt="image1"
                   width={350}
                   height={250}
@@ -222,7 +234,7 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image11}
                   alt="image1"
                   width={350}
                   height={250}
@@ -234,7 +246,7 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image5}
                   alt="image1"
                   width={350}
                   height={250}
@@ -246,7 +258,7 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image6}
                   alt="image1"
                   width={350}
                   height={250}
@@ -258,6 +270,90 @@ export default function Component() {
               </Card>
               <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
+                  src={image7}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image8}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image9}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image10}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image11}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image12}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image13}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
                   src={image1}
                   alt="image1"
                   width={350}
@@ -268,9 +364,21 @@ export default function Component() {
                   <h3 className="font-semibold"></h3>
                 </CardContent>
               </Card>
-              <Card className="relative overflow-hidden group cursor-pointer">
+                <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image1}
+                  src={image7}
+                  alt="image1"
+                  width={350}
+                  height={250}
+                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
+                  <h3 className="font-semibold"></h3>
+                </CardContent>
+              </Card>
+                <Card className="relative overflow-hidden group cursor-pointer">
+                <Image
+                  src={image7}
                   alt="image1"
                   width={350}
                   height={250}
