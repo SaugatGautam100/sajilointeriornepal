@@ -102,104 +102,50 @@ export default function Component() {
       <section className="py-16" id="achievements">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Achievements</h2>
-            <p className="text-gray-600 max-w-3xl mx-auto">
-              We are proud to share our recent achievements and successful projects that showcase our expertise in
-              interior design and construction. Our dedicated team has been working tirelessly to deliver exceptional
-              results for our clients.
-            </p>
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Achievements</h2>
+        <p className="text-gray-600 max-w-3xl mx-auto">
+          We are proud to share our recent achievements and successful projects that showcase our expertise in
+          interior design and construction. Our dedicated team has been working tirelessly to deliver exceptional
+          results for our clients.
+        </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-           
-              <Image
-                
-                src={image1}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-              <Image
-                
-                src={image2}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-              <Image
-                
-                src={image3}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-              <Image
-                
-                src={image4}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-              <Image
-                
-                src={image5}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-              <Image
-                
-                src={image6}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-              <Image
-                
-                src={image7}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-              <Image
-                
-                src={image8}
-                alt={`Achievement`}
-                width={250}
-                height={200}
-                className="rounded-lg shadow-md hover:shadow-lg transition-shadow"
-              />
-          
+        {[image1, image2, image3, image4, image5, image6, image7, image8].map((img, idx) => (
+          <div key={idx} className="aspect-square w-full flex items-center justify-center">
+            <Image
+          src={img}
+          alt={`Achievement`}
+          width={250}
+          height={250}
+          className="rounded-lg shadow-md hover:shadow-lg transition-shadow object-cover w-full h-full"
+            />
+          </div>
+        ))}
           </div>
         </div>
       </section>
 
       {/* Integrated Service */}
-      <section className="py-16 bg-gray-50" id="services">
+      <section className="py-8 bg-gray-50" id="services">
         <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <Image
-              src={image4}
-              alt="Interior design service"
-              width={500}
-              height={400}
-              className="rounded-lg shadow-lg"
-            />
-            <div>
-              <span className="text-blue-500 font-semibold">What we do</span>
-              <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Integrated Service</h2>
-              <p className="text-gray-600 leading-relaxed">
-                We provide comprehensive interior design and construction services that integrate seamlessly to deliver
-                exceptional results. Our team of experts works closely with clients to understand their vision and bring
-                it to life through innovative design solutions and quality craftsmanship.
-              </p>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+        <Image
+          src={image4}
+          alt="Interior design service"
+          width={700}
+          height={400}
+          className="rounded-lg shadow-lg"
+          priority
+        />
+        <div>
+          <span className="text-blue-500 font-semibold block mb-2">What we do</span>
+          <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Integrated Service</h2>
+          <p className="text-gray-600 leading-relaxed">
+            We provide comprehensive interior design and construction services that integrate seamlessly to deliver
+            exceptional results. Our team of experts works closely with clients to understand their vision and bring
+            it to life through innovative design solutions and quality craftsmanship.
+          </p>
+        </div>
           </div>
         </div>
       </section>
@@ -226,7 +172,8 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold">
+						Interior Designing</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -238,7 +185,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold">						Hotel and Resort Construction					</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -250,7 +197,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold">						Office & Commercial Building					</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -262,7 +209,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold"> 						Restaurant / Cafe  Design					</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -274,7 +221,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold"> 						House and Residence Design					</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -286,7 +233,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold">						Events					</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -298,7 +245,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold"> 						 Architecture Exterior Design					</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -310,7 +257,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold">						Trunkey Projects					</h3>
                 </CardContent>
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
@@ -322,7 +269,7 @@ export default function Component() {
                   className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
+                  <h3 className="font-semibold">						Banquet Design					</h3>
                 </CardContent>
               </Card>
                
@@ -402,10 +349,16 @@ export default function Component() {
               </form>
             </div>
             <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
-              <div className="text-center text-gray-500">
-                <MapPin className="w-12 h-12 mx-auto mb-4" />
-                <p>Interactive Map</p>
-              </div>
+            <iframe
+              title="Sajilo Interior Nepal Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.055964992542!2d85.3240!3d27.7172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb190a4e2b2b2b%3A0x7e3e8b8e8b8e8b8e!2sKathmandu%2C%20Nepal!5e0!3m2!1sen!2snp!4v1680000000000!5m2!1sen!2snp"
+              width="100%"
+              height="100%"
+              style={{ border: 0, borderRadius: "0.5rem" }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            />
             </div>
           </div>
         </div>
