@@ -7,16 +7,16 @@ import { MapPin, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react"
 import image1 from "../components/image/2.jpg"
 import image2 from "../components/image/4.jpg"
 import image3 from "../components/image/16.jpg"
-import image4  from "../components/image/19.jpg"
-import image5 from "../components/image/12.jpg"
-import image6 from "../components/image/11.jpg"
-import image7 from "../components/image/5.jpg"
-import image8 from "../components/image/7.jpg"
-import image9 from "../components/image/6.jpg"
-import image10 from "../components/image/8.jpg"
-import image11 from "../components/image/5.jpg"
-import image12 from "../components/image/10.jpg"
-import image13 from "../components/image/9.jpg"
+import image4  from "../components/image/image1.jpg"
+import image5 from "../components/image/image2.jpg"
+import image6 from "../components/image/image3.jpg"
+import image7 from "../components/image/image4.jpg"
+import image8 from "../components/image/image5.jpg"
+import image9 from "../components/image/image6.jpg"
+import image10 from "../components/image/image7.jpg"
+import image11 from "../components/image/image8.jpg"
+import image12 from "../components/image/image9.jpg"
+import image13 from "../components/image/image10.jpg"
 
 
 
@@ -376,18 +376,7 @@ export default function Component() {
                   <h3 className="font-semibold"></h3>
                 </CardContent>
               </Card>
-                <Card className="relative overflow-hidden group cursor-pointer">
-                <Image
-                  src={image7}
-                  alt="image1"
-                  width={350}
-                  height={250}
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-300"
-                />
-                <CardContent className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-70 text-white p-4">
-                  <h3 className="font-semibold"></h3>
-                </CardContent>
-              </Card>
+               
            
           </div>
         </div>
