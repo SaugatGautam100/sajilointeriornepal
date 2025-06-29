@@ -4,9 +4,9 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Card, CardContent } from "@/components/ui/card"
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react"
-import image1 from "../components/image/2.jpg"
-import image2 from "../components/image/4.jpg"
-import image3 from "../components/image/16.jpg"
+import image1 from "../components/image/1.jpg"
+import image2 from "../components/image/2.jpg"
+import image3 from "../components/image/3.jpg"
 import image4  from "../components/image/image1.jpg"
 import image5 from "../components/image/image2.jpg"
 import image6 from "../components/image/image3.jpg"
@@ -17,6 +17,7 @@ import image10 from "../components/image/image7.jpg"
 import image11 from "../components/image/image8.jpg"
 import image12 from "../components/image/image9.jpg"
 import image13 from "../components/image/image10.jpg"
+import logo from "../components/image/logo.jpg"
 
 
 
@@ -28,8 +29,8 @@ export default function Component() {
       <header className="bg-white shadow-sm fixed  top-0 left-0 w-full z-10">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-blue-500 rounded"></div>
-            <span className="text-xl font-bold text-gray-800">Sajilo Interior Nepal</span>
+            <div className="w-8 h-8 bg-blue-500 rounded"><Image src={logo} alt="logo"/></div>
+            <span className="text-xl font-bold text-gray-800">Hamro Sajilo Interior</span>
           </div>
           <nav className="hidden md:flex space-x-8">
             <a href="/" className="text-gray-600 hover:text-blue-500">
@@ -77,7 +78,7 @@ export default function Component() {
       <section className="py-16 bg-gray-50" id="about">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Sajilo Interior Nepal</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Hamro Sajilo Interior</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <Image
@@ -102,7 +103,7 @@ export default function Component() {
       <section className="py-16" id="achievements">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-        <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Achievements</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Projects</h2>
         <p className="text-gray-600 max-w-3xl mx-auto">
           We are proud to share our recent achievements and successful projects that showcase our expertise in
           interior design and construction. Our dedicated team has been working tirelessly to deliver exceptional
@@ -282,10 +283,10 @@ export default function Component() {
       <section className="py-16 bg-gray-50" id="projects">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <span className="text-blue-500 font-semibold">Recent Projects</span>
-            <h2 className="text-3xl font-bold text-gray-800">Our Latest Work</h2>
+            <span className="text-blue-500 font-semibold">All Projects</span>
+            <h2 className="text-3xl font-bold text-gray-800">Our All Works</h2>
           </div>
-          <Button className="bg-blue-500 hover:bg-blue-600 text-white mx-auto block">View All</Button>
+          <Button className="bg-blue-500 hover:bg-blue-600 text-white mx-auto block">View All Projects</Button>
         </div>
       </section>
 
@@ -379,8 +380,8 @@ export default function Component() {
           <div className="grid md:grid-cols-4 gap-8">
             <div>
               <div className="flex items-center space-x-2 mb-4">
-                <div className="w-8 h-8 bg-blue-500 rounded"></div>
-                <span className="text-xl font-bold">Sajilo Interior Nepal</span>
+                <div className="w-8 h-8 bg-blue-500 rounded"><Image src={logo} alt="logo"/></div>
+                <span className="text-xl font-bold">Hamro Sajilo Interior</span>
               </div>
               <p className="text-gray-400">
                 We are dedicated to providing exceptional interior design and construction services that exceed our
