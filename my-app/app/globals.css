@@ -92,3 +92,9 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+img.rounded-lg.shadow-lg {
+    height: 100%;
+    width: 100%;
+}

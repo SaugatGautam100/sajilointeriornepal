@@ -40,7 +40,7 @@ export default function Component() {
               About
             </a>
             <a href="#achievements" className="text-gray-600 hover:text-blue-500">
-              Achievements
+              Recent Projects
             </a>
             <a href="#services" className="text-gray-600 hover:text-blue-500">
               Services
