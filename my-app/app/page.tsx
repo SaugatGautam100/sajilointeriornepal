@@ -17,6 +17,12 @@ import image10 from "../components/image/image7.jpg"
 import image11 from "../components/image/image8.jpg"
 import image12 from "../components/image/image9.jpg"
 import image13 from "../components/image/image10.jpg"
+import image13o from "../components/image/image13.jpg"
+import image2o from "../components/image/2.jpg"
+import image15 from "../components/image/15.jpg"
+import image24 from "../components/image/24.jpg"
+import image21 from "../components/image/21.jpg"
+import image26 from "../components/image/26.jpg"
 import logo from "../components/image/logo.jpg"
 
 
@@ -58,7 +64,7 @@ export default function Component() {
       {/* Hero Section */}
       <section className="relative h-[600px] bg-gray-900">
         <Image
-          src={image1}
+          src={image2o}
           alt="Architectural blueprints background"
           fill
           className="object-cover opacity-30"
@@ -105,13 +111,13 @@ export default function Component() {
           <div className="text-center mb-12">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Projects</h2>
         <p className="text-gray-600 max-w-3xl mx-auto">
-          We are proud to share our recent achievements and successful projects that showcase our expertise in
+          We are proud to share our recent projects or achievements and successful projects that showcase our expertise in
           interior design and construction. Our dedicated team has been working tirelessly to deliver exceptional
           results for our clients.
         </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-        {[image1, image2, image3, image4, image5, image6, image7, image8].map((img, idx) => (
+        {[image15, image2, image3, image24, image21, image6, image7, image26].map((img, idx) => (
           <div key={idx} className="aspect-square w-full flex items-center justify-center">
             <Image
           src={img}
@@ -131,7 +137,7 @@ export default function Component() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-8 items-center">
         <Image
-          src={image4}
+          src={image13}
           alt="Interior design service"
           width={700}
           height={400}
@@ -263,7 +269,7 @@ export default function Component() {
               </Card>
                 <Card className="relative overflow-hidden group cursor-pointer">
                 <Image
-                  src={image7}
+                  src={image2o}
                   alt="image1"
                   width={350}
                   height={250}
@@ -295,7 +301,7 @@ export default function Component() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <Image
-              src={image5}
+              src={image13o}
               alt="Elegant interior design"
               width={500}
               height={400}
