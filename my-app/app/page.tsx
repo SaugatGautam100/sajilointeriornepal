@@ -75,7 +75,9 @@ export default function Component() {
             <p className="text-xl mb-8 opacity-90">
               Transform your space with our expert interior design and construction services
             </p>
+            <a href="https://www.facebook.com/modelfurnituresnepal" target="_blank">
             <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 text-lg">Get Started</Button>
+            </a>
           </div>
         </div>
       </section>
@@ -292,7 +294,9 @@ export default function Component() {
             <span className="text-blue-500 font-semibold">All Projects</span>
             <h2 className="text-3xl font-bold text-gray-800">Our All Works</h2>
           </div>
+          <a href="https://www.facebook.com/modelfurnituresnepal" target="_blank">
           <Button className="bg-blue-500 hover:bg-blue-600 text-white mx-auto block">View All Projects</Button>
+          </a>
         </div>
       </section>
 
@@ -376,7 +380,9 @@ export default function Component() {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Let's Talk About Your Project</h2>
           <p className="text-gray-300 mb-8">Ready to transform your space? Get in touch with our expert team today.</p>
-          <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3">Start Your Project</Button>
+          <a href="https://www.facebook.com/modelfurnituresnepal" target="_blank">
+          <Button className="bg-blue-500 hover:bg-blue-600 text-white mx-auto block">Start Your Project</Button>
+          </a>
         </div>
       </section>
 
