@@ -557,7 +557,7 @@ export default function App() { // Changed to App for default export
                 alt="location"
                 width={"600"}
                 height={"480"}
-                style={{ border: "1px solid black", borderRadius: "0.5rem" }}
+                style={{ border: "1px solid black", borderRadius: "0.5rem", objectFit: "cover", width: "100%", height: "100%" }}
                 
               />
             </div>
