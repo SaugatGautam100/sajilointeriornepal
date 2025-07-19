@@ -548,7 +548,7 @@ export default function App() { // Changed to App for default export
                 </a>
               </form>
             </div>
-            <a href="https://www.google.com/maps/@27.6754287,85.3509386,18z?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">
+            <a href="https://www.google.com/maps/dir/27.6756757,85.4114925/27.6743524,85.3516307/@27.6740751,85.3502781,18z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">
 
             <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
               <Image
@@ -557,7 +557,7 @@ export default function App() { // Changed to App for default export
                 alt="location"
                 width={"600"}
                 height={"480"}
-                style={{ border: "1px solid black", borderRadius: "0.5rem" }}
+                style={{ border: "1px solid black", borderRadius: "0.5rem", objectFit: "cover", width: "100%", height: "100%" }}
                 
               />
             </div>
