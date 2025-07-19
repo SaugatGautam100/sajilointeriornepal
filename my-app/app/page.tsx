@@ -114,7 +114,7 @@ export default function App() { // Changed to App for default export
               {/* Video 2: Ensure paths are correct and playsInline is set */}
               <video
                 width="100%"
-                height="100%"
+                 height="100%"
 
                 autoPlay
                 muted
