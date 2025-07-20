@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react";
+
 // Assuming these image imports are correctly configured for Next.js Image component
 import image1 from "../components/image/1.jpg";
 import image2 from "../components/image/2.jpg";
