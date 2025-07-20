@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
-import { MapPin, Phone, Mail, Facebook, Twitter, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 // Assuming these image imports are correctly configured for Next.js Image component
 import image1 from "../components/image/1.jpg";
@@ -670,11 +670,14 @@ export default function App() { // Changed to App for default export
                 <a href="https://www.instagram.com/sajilo_interior_pvt_ltd/">
                   <Instagram className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
                 </a>
+                <a href="https://youtube.com/@mt.everestnepal?si=mKl5zgEODiy4Otnv/">
+                  <Youtube className="w-5 h-5 text-gray-400 hover:text-white cursor-pointer" />
+                </a>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 Sajilo Interior Nepal. All rights reserved.</p>
+            <p>&copy; 2025 Sajilo Interior Nepal. All rights reserved.</p>
           </div>
         </div>
       </footer>
