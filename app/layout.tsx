@@ -3,8 +3,8 @@ import { Analytics } from "@vercel/analytics/next"
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'Hamro Sajilo Interior',
-  description: 'A company for your desire in your house interior',
+  title: 'Sajilo Interior Nepal',
+  description: 'Sajilo Interior Nepal is a company for your desire in your house interior',
   generator: 'Saugat Gautam and Sachnedra Shrestha',
 }
 
