@@ -4,6 +4,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import { MapPin, Phone, Mail, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import Link from "next/link";
 
 // Assuming these image imports are correctly configured for Next.js Image component
 import image1 from "../components/image/1.jpg";
@@ -543,10 +544,10 @@ export default function App() { // Changed to App for default export
                 <div>
                   <Textarea placeholder="Your Message" rows={5} className="w-full" />
                 </div>
-                <a href="https://www.facebook.com/modelfurnituresnepal">
+                <Link href="https://api.whatsapp.com/send?phone=%2B9779851413590&context=AfdxURrMvuQPeIdzALLZLSj884MOfOCymx-PaI5kcfLdBUKSLEbjWJW27nLR2trdebga3Uv9hChC0f1XdNCX2_hFWPU2RKZ8S-aqhrmvK_nLzEs7QcW7fmBhDOqmw78jxy8-ze5UYYaI6n1tlNRs6AuXDA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawLt4xdleHRuA2FlbQIxMABicmlkETFsSHJpYzBkalZtaE1QNmRaAR5Ap6yD48uVgs5DYetcAZYgyKEbr2U0WLvBH8d6JtH_ggNzkCUX46hqLYsH0A_aem_XGiNI-7JIu3pLukMu_WOUw">
 
                 <Button className="bg-blue-500 hover:bg-blue-600 text-white w-full">Send Message</Button>
-                </a>
+                </Link>
               </form>
             </div>
             <a href="https://www.google.com/maps/dir/27.6756757,85.4114925/27.6743524,85.3516307/@27.6740751,85.3502781,18z/data=!4m4!4m3!1m1!4e1!1m0?entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D">
@@ -572,7 +573,7 @@ export default function App() { // Changed to App for default export
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-4">Let's Talk About Your Project</h2>
           <p className="text-gray-300 mb-8">Ready to transform your space? Get in touch with our expert team today.</p>
-          <a href="https://www.facebook.com/modelfurnituresnepal" target="_blank" rel="noreferrer">
+          <a href="https://api.whatsapp.com/send?phone=%2B9779851413590&context=AfdxURrMvuQPeIdzALLZLSj884MOfOCymx-PaI5kcfLdBUKSLEbjWJW27nLR2trdebga3Uv9hChC0f1XdNCX2_hFWPU2RKZ8S-aqhrmvK_nLzEs7QcW7fmBhDOqmw78jxy8-ze5UYYaI6n1tlNRs6AuXDA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwY2xjawLt4xdleHRuA2FlbQIxMABicmlkETFsSHJpYzBkalZtaE1QNmRaAR5Ap6yD48uVgs5DYetcAZYgyKEbr2U0WLvBH8d6JtH_ggNzkCUX46hqLYsH0A_aem_XGiNI-7JIu3pLukMu_WOUw" target="_blank" rel="noreferrer">
             <Button className="bg-blue-500 hover:bg-blue-600 text-white mx-auto block">Start Your Project</Button>
           </a>
         </div>
