@@ -39,7 +39,7 @@ export default function App() { // Changed to App for default export
             <div className="w-8 h-8 bg-blue-500 rounded">
               <Image src={logo || "/placeholder.svg"} alt="sajilointeriornepallogo" />
             </div>
-            <span className="text-xl font-bold text-gray-800">Sajilo Interior Nepal</span>
+            <span className="text-xl font-bold text-gray-800">Sajilo Interior</span>
           </div>
           </a>
           <nav className="hidden md:flex space-x-8">
@@ -75,9 +75,9 @@ export default function App() { // Changed to App for default export
         />
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white max-w-2xl px-4">
-            <h1 className="text-5xl font-bold mb-4">Sajilo Interior Nepal Help You Make It Happen</h1>
+            <h1 className="text-5xl font-bold mb-4">Sajilo Interior Help You Make It Happen</h1>
             <p className="text-xl mb-8 opacity-90">
-              Sajilo Interior Nepal transforms your space with our expert interior design and construction services
+              Sajilo Interior transforms your space with our expert interior design and construction services
             </p>
             <a href="https://www.facebook.com/modelfurnituresnepal" target="_blank" rel="noreferrer">
               <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 text-lg">Get Started</Button>
@@ -90,7 +90,7 @@ export default function App() { // Changed to App for default export
       <section className="py-16 bg-gray-50" id="about">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Sajilo Interior Nepal</h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-4">Welcome to Sajilo Interior</h2>
           </div>
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <div className="aspect-video rounded-lg overflow-hidden shadow-lg">
@@ -140,7 +140,7 @@ export default function App() { // Changed to App for default export
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Our Recent Projects</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
-              Sajilo Interior Nepal are proud to share our recent projects or achievements and successful projects that showcase our
+              Sajilo Interior are proud to share our recent projects or achievements and successful projects that showcase our
               expertise in interior design and construction. Our dedicated team has been working tirelessly to deliver
               exceptional results for our clients.
             </p>
@@ -340,10 +340,10 @@ export default function App() { // Changed to App for default export
               priority
             />
             <div>
-              <span className="text-blue-500 font-semibold block mb-2">What Sajilo Interior Nepal do</span>
+              <span className="text-blue-500 font-semibold block mb-2">What Sajilo Interior do</span>
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Integrated Service</h2>
               <p className="text-gray-600 leading-relaxed">
-                Sajilo Interior Nepal provide comprehensive interior design and construction services that integrate seamlessly to deliver
+                Sajilo Interior provide comprehensive interior design and construction services that integrate seamlessly to deliver
                 exceptional results. Our team of experts works closely with clients to understand their vision and bring
                 it to life through innovative design solutions and quality craftsmanship.
               </p>
@@ -359,7 +359,7 @@ export default function App() { // Changed to App for default export
             <span className="text-blue-500 font-semibold">Our Services</span>
             <h2 className="text-3xl font-bold text-gray-800 mb-4">Design Element</h2>
             <p className="text-gray-600">
-              Explore our diverse range of design services tailored to meet your specific needs by Sajilo Interior Nepal
+              Explore our diverse range of design services tailored to meet your specific needs by Sajilo Interior
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -554,7 +554,7 @@ export default function App() { // Changed to App for default export
 
             <div className="bg-gray-200 rounded-lg h-96 flex items-center justify-center">
               <Image
-                title="Sajilo Interior Nepal Location"
+                title="Sajilo Interior Location"
                 src={location}
                 alt="location"
                 width={"600"}
@@ -588,10 +588,10 @@ export default function App() { // Changed to App for default export
                 <div className="w-8 h-8 bg-blue-500 rounded">
                   <Image src={logo || "/placeholder.svg"} alt="logo" />
                 </div>
-                <span className="text-xl font-bold">Sajilo Interior Nepal</span>
+                <span className="text-xl font-bold">Sajilo Interior</span>
               </div>
               <p className="text-gray-400">
-                Sajilo Interior Nepal are dedicated to providing exceptional interior design and construction services that exceed our
+                Sajilo Interior are dedicated to providing exceptional interior design and construction services that exceed our
                 clients' expectations.
               </p>
             </div>
@@ -678,7 +678,7 @@ export default function App() { // Changed to App for default export
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2025 Sajilo Interior Nepal. All rights reserved.</p>
+            <p>&copy; 2025 Sajilo Interior. All rights reserved.</p>
           </div>
         </div>
       </footer>
